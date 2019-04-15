@@ -1,0 +1,191 @@
+@media only screen and (min-width: 1921px) {
+  @font-face {
+    font-family: Gramatika Light;
+    src: url(../fonts/15088.ttf);
+  }
+  @font-face {
+    font-family: Gill Sans Nova Cn Heavy;
+    src: url(../fonts/16071.ttf);
+  }
+
+  *{
+    margin: 0;
+    font-family: 'Gill Sans Nova Cn Heavy';
+  }
+  body{
+    background-color: black;
+  }
+  .content{
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  header{
+    width: 100%;
+    text-align: center;
+  }
+  .navigation{
+    font-family: 'Gill Sans Nova Cn Heavy';
+    width: 1920px;
+    position: fixed;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+  }
+  .navigation_logo{
+    padding-top: 5px;
+    width: 30%;
+    display: flex;
+    margin-left: 50px;
+  }
+  .navigation_group_mobile{
+    display: none;
+  }
+  .navigation_group{
+    width: 60%;
+    margin-right: 50px;
+  }
+  nav{
+    background-color: black;
+  }
+  ul{
+    text-align: right;
+  }
+  .inline li{
+    display: inline;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  li>a{
+    text-decoration: none;
+    color: white;
+  }
+  .header{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to top, rgba(28,28,28,1), rgba(28,28,28,0.3), rgba(28,28,28,1)), url('../img/contacts.jpg') center;
+    background-size: cover;
+  }
+  .header h1{
+    color: white;
+    font-weight: 800;
+    font-size: 80px;
+    text-align: center;
+    line-height: 400px;
+    font-family: 'Gill Sans Nova Cn Heavy';
+  }
+
+
+
+
+  .container{
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+  }
+  .contacts{
+    margin: 0px 80px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacts>div{
+    width: 20%;
+    border: solid 1px green;
+    padding: 25px;
+  }
+
+  .width{
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .contacts h3{
+    font-size: 30px;
+  }
+  .contacts .address,
+  .contacts .phone,
+  .contacts .mail,
+  .contacts .schedule{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  .google_map iframe{
+    height: 500px;
+  }
+
+
+
+  .social{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .social h2{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0 50px 0;
+  }
+  .social_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px 0 80px;
+  }
+  .social_list h3{
+    width: 100%;
+  }
+  .social_list>div{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px green;
+    padding: 20px 16px 20px 16px;
+  }
+
+
+
+
+  footer{
+    font-family: 'Gill Sans Nova Cn Heavy';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, rgba(28,28,28,1), rgba(28,28,28,0.5), rgba(28,28,28,1)), url('../img/contacts.jpg') center;
+    background-size: cover;
+  }
+  .nav{
+    width: 100%;
+  }
+  footer ul{
+    width: 100%;
+    text-align: center;
+  }
+  .inline .number{
+    font-size: 30px;
+    color: white;
+  }
+  .phone_number{
+    display: none;
+  }
+  .inline li{
+    display: inline;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  li>a{
+    text-decoration: none;
+    color: white;
+  }
+  li>a:hover{
+    color: orange;
+  }
+}

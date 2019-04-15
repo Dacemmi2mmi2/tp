@@ -1,0 +1,168 @@
+@media only screen and (max-width: 768px) {
+  @font-face {
+    font-family: Gramatika Light;
+    src: url(../fonts/15088.ttf);
+  }
+  @font-face {
+    font-family: Gill Sans Nova Cn Heavy;
+    src: url(../fonts/16071.ttf);
+  }
+
+  *{
+    margin: 0;
+    font-family: 'Gill Sans Nova Cn Heavy';
+  }
+  header{
+    width: 100%;
+    text-align: center;
+  }
+  .navigation{
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top, rgba(27,27,27,0), rgba(27,27,27,0), rgba(27,27,27,0), rgba(27,27,27,1), rgba(27,27,27,1));
+  }
+  .navigation_logo{
+    padding-top: 5px;
+    width: 30%;
+    display: flex;
+    margin-left: 50px;
+  }
+
+  /*---------------------------------------------------*/
+  .navigation_group_mobile{
+    padding-left: 0 30px 0 0;
+    display: block;
+    width: 48%;
+  }
+  .hide{
+    display: none;
+  }
+  .menu{
+    width: 100%;
+  }
+  .logo_menu{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .logo_menu img{
+    margin: 0 50px 0 0;
+    filter: invert(100%);
+  }
+  ul{
+    padding: 0;
+  }
+  li{
+    color: white;
+    list-style-type: none;
+    margin: 5px 50px 5px 5px;
+    font-size: 25px;
+  }
+  .elements_menu{
+    display: block;
+    position: relative;
+    top: -300px;
+    right: -200px;
+    background-color: rgba(27,27,27,1);
+    box-shadow: -15px 5px 15px 5px rgba(27,27,27,1);
+    transition: .75s;
+  }
+  #menu_logo:checked~.elements_menu{
+    display: block;
+    top: 0px;
+    right: 0px;
+  }
+  /*----------------------------------------------------*/
+
+
+  .navigation_group{
+    display: none;
+  }
+  .header{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to top, rgba(28,28,28,1), rgba(28,28,28,0.7), rgba(28,28,28,1)), url('../img/portfolio.png') center;
+    background-size: cover;
+  }
+  .header h1{
+    color: white;
+    font-weight: 800;
+    font-size: 80px;
+    text-align: center;
+    line-height: 400px;
+  }
+
+
+  .container{
+    padding:0 50px 0 50px;
+  }
+  section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .epicentr{
+    margin-top: 30px;
+  }
+  .epicentr,
+  .invitro,
+  .comfy,
+  .synevo,
+  .fix_up,
+  .smarts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .visualization{
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 20px 0 20px 0;
+    width: 100%;
+  }
+
+
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, rgba(28,28,28,1), rgba(28,28,28,0.7), rgba(28,28,28,1)), url('../img/portfolio.png') center;
+    background-size: cover;
+  }
+  .nav{
+    width: 100%;
+  }
+  footer ul{
+    width: 100%;
+    text-align: center;
+  }
+  .inline .number{
+    font-size: 30px;
+    color: white;
+  }
+  .phone_number{
+    display: none;
+  }
+  .inline li{
+    display: inline;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  li>a{
+    text-decoration: none;
+    color: white;
+  }
+}

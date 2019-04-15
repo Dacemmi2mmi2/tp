@@ -1,0 +1,176 @@
+@media only screen and (min-width: 1921px) {
+  @font-face {
+    font-family: Gramatika Light;
+    src: url(../fonts/15088.ttf);
+  }
+  @font-face {
+    font-family: Gill Sans Nova Cn Heavy;
+    src: url(../fonts/16071.ttf);
+  }
+
+  *{
+    margin: 0;
+    font-family: 'Gill Sans Nova Cn Heavy';
+  }
+  body{
+    background-color: black;
+  }
+  header{
+    width: 100%;
+    text-align: center;
+  }
+  .content{
+    padding: 0;
+    width: 1920px;
+    margin: 0 auto;
+    background-color: white;
+  }
+  .navigation{
+    width: 1920px;
+    position: fixed;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+  }
+  .navigation_logo{
+    padding-top: 5px;
+    width: 30%;
+    display: flex;
+    margin-left: 50px;
+  }
+  .navigation_group_mobile{
+    display: none;
+  }
+  .navigation_group{
+    width: 60%;
+    margin-right: 50px;
+  }
+  nav{
+    background-color: black;
+  }
+  ul{
+    text-align: right;
+  }
+  .inline .number{
+    font-size: 30px;
+    color: white;
+  }
+  .inline li{
+    display: inline;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  li>a{
+    text-decoration: none;
+    color: white;
+  }
+  li>a:hover{
+    color: orange;
+  }
+  .header{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to top, rgba(28,28,28,1), rgba(28,28,28,0.7), rgba(28,28,28,1)), url('../img/portfolio.png') center;
+    background-size: cover;
+  }
+  .header h1{
+    color: white;
+    font-weight: 800;
+    font-size: 80px;
+    text-align: center;
+    line-height: 400px;
+  }
+  .container{
+    padding: 0 50px 0 50px;
+  }
+  section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .epicentr{
+    margin-top: 30px;
+  }
+  .epicentr,
+  .invitro,
+  .comfy,
+  .synevo,
+  .fix_up,
+  .smarts{
+    margin-bottom: 30px;
+    background-image: url('../img/27.png');
+    background-size: cover;
+    background-position: center;
+    transition: background-image .5s;
+  }
+  .epicentr:hover{
+    background-image: url('../img/27U.png');
+  }
+  .invitro:hover{
+    background-image: url('../img/invitro_.png');
+  }
+  .comfy:hover{
+    background-image: url('../img/comfy_.png');
+  }
+  .synevo:hover{
+    background-image: url('../img/synevo_.png');
+  }
+  .fix_up:hover{
+    background-image: url('../img/fix_.png');
+  }
+  .smarts:hover{
+    background-image: url('../img/smart_.png');
+  }
+  .visualization{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 20px;
+    width: 50%;
+  }
+
+
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, rgba(28,28,28,1), rgba(28,28,28,0.7), rgba(28,28,28,1)), url('../img/portfolio.png') center;
+    background-size: cover;
+  }
+  .nav{
+    width: 100%;
+  }
+  footer ul{
+    width: 100%;
+    text-align: center;
+  }
+  .inline .number{
+    font-size: 30px;
+    color: white;
+  }
+  .phone_number{
+    display: none;
+  }
+  .inline li{
+    display: inline;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  li>a{
+    text-decoration: none;
+    color: white;
+  }
+  li>a:hover{
+    color: orange;
+  }
+}
